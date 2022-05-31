@@ -1,0 +1,23 @@
+.inputWrapper {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: calc(100% - 18px);
+  padding: var(--size-4) var(--size-8);
+  line-height: var(--size-24);
+  font-size: var(--size-16);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-appearance: none;
+}
+
+.input:focus,
+.input:hover {
+  border: 1px solid var(--purple);
+  outline: 0;
+}
+
+.inputError {
+  color: var(--red);
+}

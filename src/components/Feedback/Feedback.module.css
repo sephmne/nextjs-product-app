@@ -1,0 +1,35 @@
+.feedbackResults {
+  display: flex;
+}
+
+.feedbackRatings {
+  width: 300px;
+}
+
+.feedbackComments {
+  width: 500px;
+}
+
+@media only screen and (max-width: var(--tablet)) {
+  .feedbackResults {
+    flex-direction: column;
+  }
+
+  .feedbackRatings {
+    order: 1;
+    width: 100%;
+  }
+
+  .feedbackDoughnutContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .feedbackDoughnut {
+    width: 300px;
+  }
+
+  .feedbackComments {
+    order: 2;
+  }
+}

@@ -1,0 +1,5 @@
+.alert {
+  background: var(--light-red);
+  padding: var(--size-16);
+  margin: var(--size-8) 0;
+}

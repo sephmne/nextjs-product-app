@@ -1,0 +1,19 @@
+.starRating button {
+  margin-bottom: var(--size-8);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.starRatingOn {
+  color: var(--black);
+}
+
+.starRatingOff {
+  color: var(--grey);
+}
+
+.starRatingDisabled {
+  pointer-events: none;
+}

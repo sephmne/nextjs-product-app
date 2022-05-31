@@ -1,0 +1,43 @@
+:root {
+  /* Sizes */
+  --size-4: 4px;
+  --size-8: 8px;
+  --size-12: 12px;
+  --size-16: 16px;
+  --size-24: 24px;
+  --size-32: 32px;
+  --size-40: 40px;
+
+  /* Viewports */
+  --tablet: 800px;
+
+  /* Colours */
+  --black: #000;
+  --grey: #ccc;
+  --purple: #6d2fff;
+  --red: #ff0000;
+  --light-red: #ffa3a3;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
